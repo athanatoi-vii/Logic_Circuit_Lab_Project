@@ -1,0 +1,8 @@
+# Ignore all .out files
+*.out
+
+# Ignore all .vcd files
+*.vcd
+
+# Ignore all files named Circuit_Full.v
+Circuit_Full.v
