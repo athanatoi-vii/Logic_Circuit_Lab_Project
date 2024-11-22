@@ -41,7 +41,7 @@
 ### ALU Decoder:
 
 #### ALU Decoder photo:
-![ALU Decoder](Pictures/Pc_Logic.png)
+![ALU Decoder](Pictures/ALU_Decoder.png)
 
 #### Description:
 با وجود ALUOp همیشه با سویچ روی Funct سیگنال های کنترلی مختلف رو برای واحد کنترل ایجاد میکنه ولی از 32 حالت ممکن تعدادی از حالات نوشته شده.
