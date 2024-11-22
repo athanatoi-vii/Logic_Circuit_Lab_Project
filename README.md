@@ -125,15 +125,15 @@ iverilog -E -o Name_Of_The_Created_File.v File_Has.v (Circuit_Full.v Control_Uni
 این خط دستور که باید از ان درون ترمینال VSCode استفاده شود برای ایجاد یک فایل یکپارچه از فایلی که شامل Include از فایلی دیگر است می باشد به این علت که پلاگین Digital JS برای ایجاد مدار به صورت گرافیکی از Include پششتیبانی نمیکند.
 
 ### Include:
-```
+```ruby
 `include "../Name_Folder/Name_File.v"
 ```
-``` `include "("../Decoder/Decoder.v")" ```
+``` `include "../Decoder/Decoder.v" ```
 
 بخش اول دستور برگشت به یک فولدر قبل تر از فولدر فعلی، بخش دوم برای وارد شدن به فولدر، بخش سوم هم نام فایل برای وارد کردن میباشد.(بخش اول و دوم میتواند به تعداد متوالی در یک خط برای رسیدن به مسیر مد نظر استفاده شود)
 
 ### Gtkwave:
-```
+```ruby
 gtkwave Name_File.vcd
 ```
 ``` gtkwave TB.vcd ```
@@ -141,10 +141,10 @@ gtkwave Name_File.vcd
 این خط بعد از کامپایل فایل Control_Unit_TB.v ایجاد و برای مشاهده این تست بنچ باید این دستور که شامل دستور اصلی و نام فایل تولید شده است را درون ترمینال اجرا کنید.
 
 ### Terminal:
-```
+```ruby
 cd ..
 ```
-```
+```ruby
 cd Name_Folder
 ```
 
