@@ -123,7 +123,7 @@
 ```ruby
 iverilog -E -o Name_Of_The_Created_File.v File_Has.v
 ```
-```iverilog -E -o Circuit_Full.v Control_Unit.v```
+``` iverilog -E -o Circuit_Full.v Control_Unit.v ```
 
 این خط دستور که باید از ان درون ترمینال VSCode استفاده شود برای ایجاد یک فایل یکپارچه از فایلی که شامل Include از فایلی دیگر است می باشد به این علت که پلاگین Digital JS برای ایجاد مدار به صورت گرافیکی از Include پششتیبانی نمیکند.
 
