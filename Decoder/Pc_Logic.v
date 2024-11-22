@@ -9,13 +9,13 @@ module PC_Logic
 
     always @(*)
     begin
-        if (RegW & ~Branch)
+        if (RegW)
+            Line = 4'b0000;
+        else if (Branch)
         begin
             PCS = Rd[Line];
             Line = Line + 1;
         end
-        else if (Branch)
-            Line = 4'b0000;
     end
 
 endmodule
