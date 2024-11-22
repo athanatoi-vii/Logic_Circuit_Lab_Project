@@ -5,22 +5,22 @@
 ---
 ### Circuit sections:
 1. Decoder
-* [Pc Logic](#Pc-Logic)
-* [ALU Decoder](#ALU-Decoder)
-* [Main Decoder](#Main-Decoder)
-2. Conditional Logic
-* [Clk Flags](#Clk-Flags)
-* [Conditional Check](#Conditional-Check)
+   * [Pc Logic](#Pc-Logic)
+   * [ALU Decoder](#ALU-Decoder)
+   * [Main Decoder](#Main-Decoder)
+3. Conditional Logic
+   * [Clk Flags](#Clk-Flags)
+   * [Conditional Check](#Conditional-Check)
 ### Integrated circuits:
 1. Decoder
-* [Decoder](#Decoder)
+   * [Decoder](#Decoder)
 2. Conditional_Logic
-* [Conditional Logic](#Conditional-Logic)
+   * [Conditional Logic](#Conditional-Logic)
 3. Conditional_Logic
-* [Control Unit](#Control-Unit)
+   * [Control Unit](#Control-Unit)
 ### Bench test:
 1. Conditional_Logic
-* [Control Unit TB](#Control-Unit-TB)
+   * [Control Unit TB](#Control-Unit-TB)
 ---
 
 ### Pc Logic:
