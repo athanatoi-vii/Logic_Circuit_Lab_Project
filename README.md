@@ -22,9 +22,10 @@
 1. Conditional_Logic
    * [Control Unit TB](#Control-Unit-TB)
 ### Tip:
-1. d
-2. d
-3. d
+1. [Creating A Single File](#Creating-A-Single-File)
+2. [Include](#Include)
+3. [Gtkwave](#Gtkwave)
+4. [Terminal](#Terminal)
 ---
 
 ### Pc Logic:
@@ -40,7 +41,7 @@
 ### ALU Decoder:
 
 #### ALU Decoder photo:
-![ALU Decoder](Pictures/ALU_Decoder.png)
+![ALU Decoder](Pictures/Pc_Logic.png)
 
 #### Description:
 با وجود ALUOp همیشه با سویچ روی Funct سیگنال های کنترلی مختلف رو برای واحد کنترل ایجاد میکنه ولی از 32 حالت ممکن تعدادی از حالات نوشته شده.
@@ -118,11 +119,24 @@
 
 ---
 
-### 1:
-#### Description:
+### Creating A Single File:
+iverilog -E -o Name_Of_The_Created_File.v File_Has.v (Circuit_Full.v Control_Unit.v)
 
-### 2:
-#### Description:
+این خط دستور که باید از ان درون ترمینال VSCode استفاده شود برای ایجاد یک فایل یکپارچه از فایلی که شامل Include از فایلی دیگر است می باشد به این علت که پلاگین Digital JS برای ایجاد مدار به صورت گرافیکی از Include پششتیبانی نمیکند.
 
-### 3:
-#### Description:
+### Include:
+`include "../Name_Folder/Name_File.v" ("../Decoder/Decoder.v")
+
+بخش اول دستور برگشت به یک فولدر قبل تر از فولدر فعلی، بخش دوم برای وارد شدن به فولدر، بخش سوم هم نام فایل برای وارد کردن میباشد.(بخش اول و دوم میتواند به تعداد متوالی در یک خط برای رسیدن به مسیر مد نظر استفاده شود)
+
+### Gtkwave:
+gtkwave TB.vcd
+
+این خط بعد از کامپایل فایل Control_Unit_TB.v ایجاد و برای مشاهده این تست بنچ باید این دستور که شامل دستور اصلی و نام فایل تولید شده است را درون ترمینال اجرا کنید.
+
+### Terminal:
+cd ..
+
+cd Name_Folder
+
+برای جابه جایی ترمینال VSCode به مسیر مد نظر و اجرا دستورات 1 و 3 به این دستور های برای برگشت به پوشه قبلی و وارد شدن به پوشه مد نظر استفاده کنید که دستورات لینوکس هستند و برای اشنایی بهتر میتونید به مخزن کامند های لینوکس مراجعه کنید.
