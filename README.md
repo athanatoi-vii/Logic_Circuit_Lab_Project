@@ -25,19 +25,89 @@
 
 ### Pc Logic:
 
+#### Pc Logic photo:
+![Pc Logic](Pictures/Pc_Logic.png)
+
+#### Description:
+
+
+---
+
 ### ALU Decoder:
+
+#### ALU Decoder photo:
+![ALU Decoder](Pictures/ALU_Decoder.png)
+
+#### Description:
+
+
+---
 
 ### Main Decoder:
 
+
+#### Main Decoder photo:
+![Main Decoder](Pictures/Main_Decoder.png)
+
+#### Description:
+
+
+---
+
 ### Clk Flags:
 
-### Conditional CheckP:
+#### Clk Flags photo:
+![Clk Flags](Pictures/Clk_Flags.png)
+
+#### Description:
+
+
+---
+
+### Conditional Check:
+
+#### Conditional Check photo:
+![Conditional Check](Pictures/Conditional_Check.png)
+
+#### Description:
+
+
+---
 
 ### Decoder:
 
-### Conditional_Logic:
+#### Decoder photo:
+![Decoder](Pictures/Decoder.png)
 
-### Control_Unit:
+#### Description:
 
-### Control_Unit_TB:
+
+---
+
+### Conditional Logic:
+
+#### Conditional Logic photo:
+![Conditional Logic](Pictures/Conditional_Logic.png)
+
+#### Description:
+
+
+---
+
+### Control Unit:
+
+#### Control Unit photo:
+![Control Unit](Pictures/Control_Unit.png)
+
+#### Description:
+
+
+---
+
+### Control Unit TB:
+
+#### Control Unit TB photo:
+![Control Unit TB](Pictures/Control_Unit_TB.png)
+
+#### Description:
 
