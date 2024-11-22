@@ -5,15 +5,17 @@ module PC_Logic
     input wire RegW,
     output reg PCS
 );
+    reg [3:0] Line = 4'b0000;
 
     always @(*)
     begin
-        if (Branch)
-            PCS = Rd[0];
-        else if (RegW)
-            PCS = Rd[1];
-        else
-            PCS = 1'b0;
+        if (RegW & ~Branch)
+        begin
+            PCS = Rd[Line];
+            Line = Line + 1;
+        end
+        else if (Branch)
+            Line = 4'b0000;
     end
 
 endmodule
