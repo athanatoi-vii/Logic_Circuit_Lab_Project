@@ -1,4 +1,4 @@
-// gtkwave
+// gtkwave TB.vcd
 
 `include "Control_Unit.v"
 `timescale 1ns / 1ps
